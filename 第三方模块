@@ -1,0 +1,8 @@
+查看当前搜索路径
+在cmd下进入python
+import sys
+sys.path
+注意显示的第一个引号是当前路径。
+如果在F:\\文件下有一个woshi.py文件需要引入可以
+sys.path.append('F:\\aa')
+这个时候在看当前路径就可以发现F盘aa已经加入了搜索路径了。然后就可以直接引用了
